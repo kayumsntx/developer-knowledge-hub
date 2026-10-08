@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# Visual Studio Code
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log

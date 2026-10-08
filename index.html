@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Developer Knowledge Hub - Learn C#, ASP.NET Core, SQL Server, Web API, Angular, Node.js and more.">
+
+    <title>Developer Knowledge Hub | Learn • Build • Share</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span>Dev<span>Hub</span></span>
+            </a>
+
+            <button class="mobile-menu-btn"
+                    id="mobileMenuBtn"
+                    aria-label="Open menu">
+                ☰
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+
+                <a href="index.html" class="active">Home</a>
+                <a href="learn.html">Learn</a>
+                <a href="interview.html">Interview</a>
+                <a href="code.html">Code Lab</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="theme-btn"
+                        id="themeToggle"
+                        title="Toggle theme">
+                    🌙
+                </button>
+
+                <a href="https://github.com/"
+                   target="_blank"
+                   class="github-btn">
+                    GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    DEVELOPER KNOWLEDGE HUB
+                </div>
+
+                <h1>
+                    Learn.
+                    <span>Build.</span>
+                    Share.
+                </h1>
+
+                <p class="hero-subtitle">
+
+                    A practical knowledge hub for software developers.
+                    Learn programming, explore frameworks, practice
+                    interview questions and build real-world projects.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="learn.html" class="btn btn-primary">
+                        Explore Learning →
+                    </a>
+
+                    <a href="interview.html" class="btn btn-secondary">
+                        Interview Preparation
+                    </a>
+
+                </div>
+
+
+                <!-- Search -->
+
+                <div class="hero-search">
+
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        type="text"
+                        id="homeSearch"
+                        placeholder="Search C#, ASP.NET Core, SQL, Angular..."
+                        autocomplete="off">
+
+                    <kbd>Ctrl K</kbd>
+
+                    <div id="searchResults"
+                         class="search-results">
+                    </div>
+
+                </div>
+
+
+                <!-- Technology tags -->
+
+                <div class="technology-tags">
+
+                    <span>C#</span>
+                    <span>ASP.NET Core</span>
+                    <span>SQL Server</span>
+                    <span>Web API</span>
+                    <span>Angular</span>
+                    <span>Node.js</span>
+                    <span>Git</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LEARNING PATH
+        ========================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            LEARNING PATH
+                        </span>
+
+                        <h2>
+                            Explore Technologies
+                        </h2>
+
+                        <p>
+                            Organized notes and practical knowledge
+                            to help you learn step by step.
+                        </p>
+
+                    </div>
+
+                    <a href="learn.html"
+                       class="text-link">
+                        View all →
+                    </a>
+
+                </div>
+
+
+                <div class="topic-grid">
+
+
+                    <!-- C# -->
+
+                    <a href="topics/csharp.html"
+                       class="topic-card">
+
+                        <div class="topic-icon csharp-icon">
+                            C#
+                        </div>
+
+                        <div class="topic-card-body">
+
+                            <h3>C#</h3>
+
+                            <p>
+                                Programming fundamentals,
+                                OOP, LINQ, collections,
+                                async programming and more.
+                            </p>
+
+                            <span class="topic-count">
+                                Explore notes →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- ASP.NET -->
+
+                    <a href="topics/aspnet-core.html"
+                       class="topic-card">
+
+                        <div class="topic-icon dotnet-icon">
+                            .NET
+                        </div>
+
+                        <div class="topic-card-body">
+
+                            <h3>ASP.NET Core</h3>
+
+                            <p>
+                                Web API, MVC, middleware,
+                                dependency injection,
+                                authentication and architecture.
+                            </p>
+
+                            <span class="topic-count">
+                                Explore notes →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- SQL -->
+
+                    <a href="topics/sql-server.html"
+                       class="topic-card">
+
+                        <div class="topic-icon sql-icon">
+                            SQL
+                        </div>
+
+                        <div class="topic-card-body">
+
+                            <h3>SQL Server</h3>
+
+                            <p>
+                                SQL basics, joins, procedures,
+                                functions, indexes and transactions.
+                            </p>
+
+                            <span class="topic-count">
+                                Explore notes →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Web API -->
+
+                    <a href="topics/web-api.html"
+                       class="topic-card">
+
+                        <div class="topic-icon api-icon">
+                            API
+                        </div>
+
+                        <div class="topic-card-body">
+
+                            <h3>Web API</h3>
+
+                            <p>
+                                REST API concepts, HTTP,
+                                CRUD, DTOs, validation and security.
+                            </p>
+
+                            <span class="topic-count">
+                                Explore notes →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- EF Core -->
+
+                    <a href="topics/entity-framework.html"
+                       class="topic-card">
+
+                        <div class="topic-icon ef-icon">
+                            EF
+                        </div>
+
+                        <div class="topic-card-body">
+
+                            <h3>Entity Framework</h3>
+
+                            <p>
+                                Code First, migrations,
+                                relationships, LINQ and database operations.
+                            </p>
+
+                            <span class="topic-count">
+                                Explore notes →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Angular -->
+
+                    <a href="topics/angular.html"
+                       class="topic-card">
+
+                        <div class="topic-icon angular-icon">
+                            NG
+                        </div>
+
+                        <div class="topic-card-body">
+
+                            <h3>Angular</h3>
+
+                            <p>
+                                Components, services, routing,
+                                forms, HTTP and RxJS.
+                            </p>
+
+                            <span class="topic-count">
+                                Explore notes →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Node -->
+
+                    <a href="topics/nodejs.html"
+                       class="topic-card">
+
+                        <div class="topic-icon node-icon">
+                            JS
+                        </div>
+
+                        <div class="topic-card-body">
+
+                            <h3>Node.js & Express</h3>
+
+                            <p>
+                                Server-side JavaScript,
+                                Express, middleware and REST APIs.
+                            </p>
+
+                            <span class="topic-count">
+                                Explore notes →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Git -->
+
+                    <a href="topics/git-github.html"
+                       class="topic-card">
+
+                        <div class="topic-icon git-icon">
+                            Git
+                        </div>
+
+                        <div class="topic-card-body">
+
+                            <h3>Git & GitHub</h3>
+
+                            <p>
+                                Git fundamentals, branching,
+                                collaboration and GitHub workflows.
+                            </p>
+
+                            <span class="topic-count">
+                                Explore notes →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LATEST NOTES
+        ========================== -->
+
+        <section class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            KNOWLEDGE
+                        </span>
+
+                        <h2>
+                            Latest Notes
+                        </h2>
+
+                        <p>
+                            Practical notes from the technologies I'm learning.
+                        </p>
+
+                    </div>
+
+                    <a href="learn.html"
+                       class="text-link">
+                        All notes →
+                    </a>
+
+                </div>
+
+
+                <div class="notes-list">
+
+
+                    <article class="note-card">
+
+                        <div class="note-number">
+                            01
+                        </div>
+
+                        <div class="note-content">
+
+                            <div class="note-meta">
+                                <span class="tag tag-blue">
+                                    ASP.NET Core
+                                </span>
+
+                                <span>
+                                    5 min read
+                                </span>
+                            </div>
+
+                            <h3>
+                                Introduction to Middleware
+                            </h3>
+
+                            <p>
+                                Understand how middleware works inside
+                                the ASP.NET Core request pipeline.
+                            </p>
+
+                            <a href="topics/aspnet-core.html">
+                                Read note →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="note-card">
+
+                        <div class="note-number">
+                            02
+                        </div>
+
+                        <div class="note-content">
+
+                            <div class="note-meta">
+
+                                <span class="tag tag-purple">
+                                    C#
+                                </span>
+
+                                <span>
+                                    7 min read
+                                </span>
+
+                            </div>
+
+                            <h3>
+                                Understanding Dependency Injection
+                            </h3>
+
+                            <p>
+                                Learn why dependency injection is important
+                                and how it is used in modern .NET applications.
+                            </p>
+
+                            <a href="topics/csharp.html">
+                                Read note →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="note-card">
+
+                        <div class="note-number">
+                            03
+                        </div>
+
+                        <div class="note-content">
+
+                            <div class="note-meta">
+
+                                <span class="tag tag-green">
+                                    SQL Server
+                                </span>
+
+                                <span>
+                                    8 min read
+                                </span>
+
+                            </div>
+
+                            <h3>
+                                SQL Server Indexes
+                            </h3>
+
+                            <p>
+                                Understand indexes, why they matter
+                                and how they improve query performance.
+                            </p>
+
+                            <a href="topics/sql-server.html">
+                                Read note →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTERVIEW
+        ========================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="interview-banner">
+
+                    <div class="interview-content">
+
+                        <span class="section-label">
+                            INTERVIEW PREPARATION
+                        </span>
+
+                        <h2>
+                            Prepare for real
+                            developer interviews.
+                        </h2>
+
+                        <p>
+                            Practice questions covering programming,
+                            backend development, databases, APIs,
+                            architecture and more.
+                        </p>
+
+                        <a href="interview.html"
+                           class="btn btn-primary">
+                            Start Practice →
+                        </a>
+
+                    </div>
+
+
+                    <div class="interview-topics">
+
+                        <div>
+                            <strong>100+</strong>
+                            <span>C# Questions</span>
+                        </div>
+
+                        <div>
+                            <strong>80+</strong>
+                            <span>.NET Questions</span>
+                        </div>
+
+                        <div>
+                            <strong>100+</strong>
+                            <span>SQL Questions</span>
+                        </div>
+
+                        <div>
+                            <strong>60+</strong>
+                            <span>API Questions</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CODE LAB
+        ========================== -->
+
+        <section class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            CODE LAB
+                        </span>
+
+                        <h2>
+                            Learn by Coding
+                        </h2>
+
+                        <p>
+                            Small practical examples that demonstrate
+                            important programming concepts.
+                        </p>
+
+                    </div>
+
+                    <a href="code.html"
+                       class="text-link">
+                        Explore code →
+                    </a>
+
+                </div>
+
+
+                <div class="code-grid">
+
+                    <a href="code.html"
+                       class="code-card">
+
+                        <div class="code-card-icon">
+                            { }
+                        </div>
+
+                        <h3>
+                            C# Examples
+                        </h3>
+
+                        <p>
+                            OOP, LINQ, collections,
+                            async programming and patterns.
+                        </p>
+
+                    </a>
+
+
+                    <a href="code.html"
+                       class="code-card">
+
+                        <div class="code-card-icon">
+                            API
+                        </div>
+
+                        <h3>
+                            API Examples
+                        </h3>
+
+                        <p>
+                            CRUD APIs, DTOs, validation,
+                            authentication and more.
+                        </p>
+
+                    </a>
+
+
+                    <a href="code.html"
+                       class="code-card">
+
+                        <div class="code-card-icon">
+                            SQL
+                        </div>
+
+                        <h3>
+                            SQL Examples
+                        </h3>
+
+                        <p>
+                            Joins, stored procedures,
+                            functions and queries.
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            PROJECTS
+                        </span>
+
+                        <h2>
+                            Learn by Building
+                        </h2>
+
+                        <p>
+                            Real projects where concepts become practical skills.
+                        </p>
+
+                    </div>
+
+                    <a href="projects.html"
+                       class="text-link">
+                        View projects →
+                    </a>
+
+                </div>
+
+
+                <div class="project-grid">
+
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-status">
+                                Learning Project
+                            </span>
+
+                            <span>
+                                .NET
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            HRMS Management System
+                        </h3>
+
+                        <p>
+                            Human Resource Management System
+                            using ASP.NET Core, SQL Server,
+                            Angular and Entity Framework Core.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>ASP.NET Core</span>
+                            <span>Angular</span>
+                            <span>SQL Server</span>
+
+                        </div>
+
+                        <a href="projects.html">
+                            View project →
+                        </a>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-status">
+                                Learning Project
+                            </span>
+
+                            <span>
+                                API
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Web API Practice
+                        </h3>
+
+                        <p>
+                            REST API experiments covering
+                            CRUD operations, database access,
+                            authentication and API design.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>ASP.NET Core</span>
+                            <span>Web API</span>
+                            <span>SQL</span>
+
+                        </div>
+
+                        <a href="projects.html">
+                            View project →
+                        </a>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-status">
+                                Future
+                            </span>
+
+                            <span>
+                                Platform
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Developer Knowledge Hub
+                        </h3>
+
+                        <p>
+                            This platform itself will evolve into
+                            a full-stack learning and contribution platform.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Angular</span>
+                            <span>API</span>
+                            <span>SQL Server</span>
+
+                        </div>
+
+                        <a href="projects.html">
+                            View project →
+                        </a>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTRIBUTION CTA
+        ========================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="contribute-card">
+
+                    <div>
+
+                        <span class="section-label">
+                            FUTURE COMMUNITY
+                        </span>
+
+                        <h2>
+                            Share what you know.
+                        </h2>
+
+                        <p>
+                            This platform can eventually become a
+                            community where developers can contribute
+                            notes, examples and interview questions.
+                        </p>
+
+                    </div>
+
+                    <button class="btn btn-secondary"
+                            onclick="showComingSoon()">
+                        Become a Contributor
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div>
+
+                    <a href="index.html"
+                       class="logo footer-logo">
+
+                        <span class="logo-symbol">
+                            &lt;/&gt;
+                        </span>
+
+                        <span>
+                            Dev<span>Hub</span>
+                        </span>
+
+                    </a>
+
+                    <p class="footer-description">
+                        Learn. Build. Share.
+                        A practical knowledge hub for developers.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Learn
+                    </h4>
+
+                    <a href="topics/csharp.html">
+                        C#
+                    </a>
+
+                    <a href="topics/aspnet-core.html">
+                        ASP.NET Core
+                    </a>
+
+                    <a href="topics/sql-server.html">
+                        SQL Server
+                    </a>
+
+                    <a href="topics/angular.html">
+                        Angular
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Resources
+                    </h4>
+
+                    <a href="interview.html">
+                        Interview
+                    </a>
+
+                    <a href="code.html">
+                        Code Lab
+                    </a>
+
+                    <a href="projects.html">
+                        Projects
+                    </a>
+
+                    <a href="about.html">
+                        About
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Connect
+                    </h4>
+
+                    <a href="https://github.com/kayumsntx"
+                       target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="#">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © <span id="currentYear"></span>
+                    Developer Knowledge Hub
+                </span>
+
+                <span>
+                    Built for learning.
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
